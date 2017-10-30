@@ -6,3 +6,5 @@ collections:
     output: true
   fans:
     output: true
+
+baseurl: https://sevgym14.github.io/abramov
