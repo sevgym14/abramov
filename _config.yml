@@ -1,0 +1,8 @@
+title: Электронный Кабинет Владимира Игоревича Абрамова
+permalink: pretty
+
+collections:
+  methods:
+    output: true
+  fans:
+    output: true
