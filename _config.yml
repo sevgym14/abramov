@@ -6,5 +6,8 @@ collections:
     output: true
   fans:
     output: true
+  funny:
+    output: true
 
-baseurl: https://sevgym14.github.io/abramov
+excerpt_separator: <!--more-->
+# baseurl: https://sevgym14.github.io/abramov
