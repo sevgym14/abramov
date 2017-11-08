@@ -4,6 +4,8 @@ permalink: pretty
 collections:
   methods:
     output: true
+  schoolbook:
+    output: true
   fans:
     output: true
   funny:
