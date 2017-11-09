@@ -5,7 +5,7 @@ layout: default
 <ul class="article-list list-unstyled">
   {% for item in site[page.section] %}
     <li>
-      <a href="{{ item.url }}">
+      <a href="{{ site.baseurl }}{{ item.url }}">
         <article class="card p-3 mb-2">
           <div class="row">
             {% if item.preview %}
