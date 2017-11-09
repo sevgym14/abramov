@@ -2,18 +2,23 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<ul class="list-articles">
+<ul class="list-unstyled">
   {% for item in site[page.section] %}
     <li>
-      <article>
-        {% if item.preview %}
-          <img src="{{ item.preview }}">
-        {% endif %}
+      <article class="card p-3 mb-2">
+        <div class="row">
+          {% if item.preview %}
+            <div class="col-auto">
+              <img src="{{ item.preview }}" alt="{{ item.title }}">
+            </div>
+          {% endif %}
 
-        <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-
-        {{ item.excerpt }}
+          <div class="col">
+            <h2>{{ item.title }}</h2>
+            {{ item.excerpt }}
+          </div>
+        </div>
       </article>
     </li>
   {% endfor %}
-</ul>
+</div>

@@ -1,7 +1,9 @@
-<nav class="main-nav">
-  <ul>
+<nav>
+  <ul class="nav nav-pills flex-column text-center px-5">
     {% for item in site.data.menu.main %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li class="nav-item">
+        <a href="{{ item.url }}" class="nav-link{% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 </nav>

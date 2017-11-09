@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   {% include head.html %}
   <body>
-    {% include header.html %}
-
-    <div class="container">
-      {% include aside.html %}
-
-      <main>
-        {{ content }}
-      </main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-auto pt-4">
+          {% include header.html %}
+          {% include nav.html %}
+        </div>
+        <div class="col pt-4">
+          <main>
+            {{ content }}
+          </main>
+        </div>
+      </div>
     </div>
   </body>
 </html>
