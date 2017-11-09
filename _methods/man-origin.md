@@ -1,6 +1,7 @@
 ---
 title: Происхождение человека
 preview: man-origin/11.png
+origin: "&laquo;Происхождение человека&raquo;, Журнал &laquo;Биология&raquo;, &#8470;&#8470;&nbsp;38-40, 2000&nbsp;г."
 layout: page
 ---
 
