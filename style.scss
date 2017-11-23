@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-title {
   font-family: $font-family-headers;
   font-size: $font-size-base * 1.5;
+  margin: 0;
 
   .title-name {
     display: block;
@@ -44,4 +45,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
   }
+}
+
+main {
+  max-width: 1300px;
 }

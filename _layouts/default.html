@@ -3,12 +3,17 @@
   {% include head.html %}
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-auto pt-4 bg-light">
+      <div class="row bg-light py-3">
+        <div class="col-3">
           {% include header.html %}
+        </div>
+        <div class="col">
           {% include nav.html %}
         </div>
-        <div class="col pt-4">
+      </div>
+
+      <div class="row mx-auto">
+        <div class="col">
           <main>
             {{ content }}
           </main>
