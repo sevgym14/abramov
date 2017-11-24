@@ -9,7 +9,7 @@ layout: default
         <article class="card p-3 mb-2">
           <div class="row">
             {% if item.preview %}
-              <div class="col-3 col-xl-2">
+              <div class="col-sm-12 col-md-3 col-xl-2">
                 <img class="img-fluid" src="{{ item.preview }}" alt="{{ item.title }}">
               </div>
             {% endif %}
@@ -23,4 +23,4 @@ layout: default
       </a>
     </li>
   {% endfor %}
-</div>
+</ul>
