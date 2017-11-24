@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: $font-size-base * 2.5;
   font-weight: 0;
 
-  .title-name {
-    
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-base * 2;
   }
 }
 
