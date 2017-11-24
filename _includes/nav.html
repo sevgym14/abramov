@@ -1,9 +1,15 @@
-<nav>
-  <ul class="nav nav-pills justify-content-center">
-    {% for item in site.data.menu.main %}
-      <li class="nav-item">
-        <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link{% if page.url == item.url %} active{% endif %}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<nav class="navbar navbar-expand-md navbar-light bg-light rounded">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggled">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarToggled">
+    <ul class="navbar-nav justify-content-center w-100">
+      {% for item in site.data.menu.main %}
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link{% if page.url == item.url %} active{% endif %}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>

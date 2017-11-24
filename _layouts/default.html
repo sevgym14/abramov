@@ -2,7 +2,7 @@
 <html lang="ru">
   {% include head.html %}
   <body>
-    <div class="container-fluid bg-light py-3 text-center">
+    <div class="container-fluid py-3 text-center">
       {% include header.html %}
       {% include nav.html %}
     </div>
@@ -12,5 +12,7 @@
         {{ content }}
       </main>
     </div>
+
+    {% include scripts.html %}
   </body>
 </html>

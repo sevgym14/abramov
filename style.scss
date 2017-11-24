@@ -8,10 +8,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-title {
   font-family: $font-family-headers;
-  font-size: $font-size-base * 1.5;
+  font-size: $font-size-base * 2.5;
+  font-weight: 0;
 
   .title-name {
-    font-weight: $font-weight-bold;
+    
   }
 }
 
