@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
 @import "bootstrap-custom";
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,7 +10,6 @@ h1, h2, h3, h4, h5, h6 {
 .site-title {
   font-family: $font-family-headers;
   font-size: $font-size-base * 2.5;
-  font-weight: 0;
 
   @include media-breakpoint-down(sm) {
     font-size: $font-size-base * 2;
