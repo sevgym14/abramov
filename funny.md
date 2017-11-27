@@ -1,5 +1,5 @@
 ---
-title: Забавные истории
+title: Анималисты улыбаются
 layout: section
 section: funny
 ---
